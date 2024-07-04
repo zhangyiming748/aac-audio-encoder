@@ -1,9 +1,9 @@
-name: DownloadAndWhisperAndTrans
+name: aac
 services:
-  whisperandtrans:
+  aac:
     stdin_open: true
     tty: true
-    container_name: wta
+    container_name: aac
     volumes:
       - /path/to/save/videos:/data # 你的视频所在文件夹
     environment:
